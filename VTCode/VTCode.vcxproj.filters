@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\amd64">
+      <UniqueIdentifier>{d8c4aeef-b3e9-487a-8d5c-33a28156e712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\i386">
+      <UniqueIdentifier>{de6b5d60-fcb4-4392-a466-ec7feb795f08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AMD64\AMD64.asm">
+      <Filter>Source Files\amd64</Filter>
+    </None>
+    <None Include="AMD64\OPSAMD64.asm">
+      <Filter>Source Files\amd64</Filter>
+    </None>
+    <None Include="I386\I386.asm">
+      <Filter>Source Files\i386</Filter>
+    </None>
+    <None Include="I386\OPSI386.asm">
+      <Filter>Source Files\i386</Filter>
+    </None>
+  </ItemGroup>
+</Project>
